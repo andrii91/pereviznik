@@ -3,6 +3,33 @@
 @media #{$tabletPortrait} {
     @import '../mobile';
   	& {
-     
+      .services-info li {
+        max-width: 335px;
+      }
+      .head {
+        text-align: left;
+        min-height: auto;
+      }
+      .head-title {
+          font-size: 58px;
+          line-height: 63px;
+      }
+      .services {
+        margin-top: -160px;
+      }
+      .offers-box .img {
+          vertical-align: middle;
+          max-width: 74px;
+          text-align: center;
+          width: 100%;
+          margin-right: 15px;
+        img {
+          width: auto;
+        }
+      }
+      .offers-box p {
+        max-width: 755px;
+        font-size: 20px;
+      }
 	}
 }

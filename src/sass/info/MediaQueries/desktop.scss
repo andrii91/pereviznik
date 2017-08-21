@@ -3,7 +3,12 @@
 @media #{$desktop} {
     @import '../desktop';
     & {
-	  
+      .head {
+        min-height: 115vh;
+      }
+      .services {
+        margin-top: -30vh;
+      }
     }
 }
 

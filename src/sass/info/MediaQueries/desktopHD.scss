@@ -3,6 +3,8 @@
 @media #{$desktopHD} {
     @import '../desktop';
     & {
-
+      .head {
+        min-height: 135vh;
+      }
     }
 }
